@@ -75,6 +75,11 @@ public class SearchDDTest extends TestBase {
 		return data;
 		
 	}
+	
+	@AfterTest
+	public void verifyHomePage() {
+		log.debug("Aftertest");
+	}
 
 	@AfterClass
 	public void afterClass() {
